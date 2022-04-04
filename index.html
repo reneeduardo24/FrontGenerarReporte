@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Generar Reporte</title>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="navegacion">
+            <a class="navegacion-logo" href="index.html">Grano de mostaza</a>
+            <nav class="navegacion-enlaces">
+                <a class="navegacion-enlace" href="#">.....</a>
+                <a class="navegacion-enlace" href="#">.....</a>
+                <a class="navegacion-enlace" href="#">.....</a>
+                <a class="navegacion-enlace" href="#">.....</a>
+                <a class="navegacion-enlace boton" href="#">Inicio</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="seccion">
+                <img class="adorno-triangulo" src="img/triangulo.png" alt="grafico de fondo">
+
+                <div class="seccion-contenido">
+                    <div class="seccion-intro">
+                        <h2>Generar Reportes</h2>
+                        <p class="seccion-intro_texto">Seleccione las fechas para generar el reporte, inicio de fecha y la fecha final respectivamente.</p>
+                    </div>
+
+                </div>
+
+                
+                <div class="bannerF-fechas1">
+                    <h1 class="bannerF-fechas_titulo">Selecciona el inicio del periodo</h1>
+                    <input type="date" value="2022-04-03" min="2022-01-01">
+                </div>
+                <div class="bannerF-fechas2">
+                    <h1 class="bannerF-fechas_titulo2">Selecciona el fin del periodo</h1>
+                    <input type="date" value="2022-04-03" min="2022-01-01">
+                </div>
+            </div>
+            
+            <div class="banner1-agenda">
+                <div class="banner1-agenda_titulo">
+                    <p>Seleccione las fechas</p>
+                    <div class="icono-fondo">
+                        <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <path
+                                    d="M10,0 C15.5228475,0 20,4.4771525 20,10 C20,15.5228475 15.5228475,20 10,20 C4.4771525,20 0,15.5228475 0,10 C0,4.4771525 4.4771525,0 10,0 Z M10,3.61111111 C9.53976271,3.61111111 9.16666667,3.98420715 9.16666667,4.44444444 L9.16666667,4.44444444 L9.16666667,10 L9.16928127,10.0659859 C9.18491097,10.2628492 9.27009207,10.4486034 9.41074435,10.5892557 L9.41074435,10.5892557 L12.7440777,13.922589 L12.7896708,13.9649496 C13.1170639,14.2473535 13.6119447,14.2332333 13.922589,13.922589 L13.922589,13.922589 L13.9649496,13.8769959 C14.2473535,13.5496028 14.2332333,13.054722 13.922589,12.7440777 L13.922589,12.7440777 L10.8333333,9.65473684 L10.8333333,4.44444444 L10.8314108,4.38738933 C10.8020907,3.95376355 10.4410607,3.61111111 10,3.61111111 Z"
+                                    id="Clock-Copy" fill="#3252D1"></path>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="banner1-agenda_panel">
+                    <div class="agenda-panel_info">
+                        <div class="agenda-categoria">
+                            <p class="agenda-location">Locacion</p>
+                            <div class="icono-fondo">
+                                <svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <path
+                                            d="M14.7762693,2.53516347 C18.1565453,5.91538142 18.1566395,11.3958301 14.7764796,14.7761642 L10.1856761,19.3669677 C9.34078104,20.2110108 7.97183886,20.2110108 7.12694377,19.3669677 L2.53505834,14.7761642 C-0.845101557,11.3958301 -0.845007418,5.91538142 2.5352686,2.53516347 C5.91554462,-0.845054489 11.3959933,-0.845054489 14.7762693,2.53516347 Z M8.65576896,5.4095402 C6.86310051,5.4095402 5.4098556,6.86278512 5.4098556,8.65545356 C5.4098556,10.448122 6.86310051,11.9013669 8.65576896,11.9013669 C10.4484374,11.9013669 11.9016823,10.448122 11.9016823,8.65545356 C11.9016823,6.86278512 10.4484374,5.4095402 8.65576896,5.4095402 Z"
+                                            id="Pin-Copy" fill="#3252D1"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="agenda-location_val">Cd. Obregon</p>
+
+                        <div class="agenda-categoria">
+                            <p class="agenda-date">Fecha</p>
+                            <div class="icono-fondo">
+                                <svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <path
+                                            d="M13.0769231,0 C13.4840561,0 13.8173145,0.316294561 13.8443792,0.716564509 L13.8461538,0.769230769 L13.846,2.051 L15.1282051,2.05128205 C16.6282378,2.05128205 17.8547736,3.22226112 17.9435705,4.6999771 L17.9487179,4.87179487 L17.9487179,17.1794872 C17.9487179,18.6795198 16.7777389,19.9060557 15.3000229,19.9948525 L15.1282051,20 L2.82051282,20 C1.32048017,20 0.0939443295,18.8290209 0.00514748097,17.351305 L0,17.1794872 L0,4.87179487 C0,3.37176222 1.17097907,2.14522638 2.64869504,2.05642953 L2.82051282,2.05128205 L4.102,2.051 L4.1025641,0.769230769 C4.1025641,0.344396346 4.44696045,0 4.87179487,0 C5.27892786,0 5.6121863,0.316294561 5.639251,0.716564509 L5.64102564,0.769230769 L5.641,2.051 L12.307,2.051 L12.3076923,0.769230769 C12.3076923,0.344396346 12.6520887,0 13.0769231,0 Z M8.97435897,12.3076923 L7.94871795,12.3076923 L7.89605169,12.3094669 C7.49578174,12.3365317 7.17948718,12.6697901 7.17948718,13.0769231 C7.17948718,13.4663546 7.46887578,13.7881959 7.84433789,13.8391317 L7.94871795,13.8461538 L8.20448718,13.8456923 L8.20512821,16.1538462 L8.20690284,16.2065124 C8.23396755,16.6067824 8.56722599,16.9230769 8.97435897,16.9230769 C9.36379053,16.9230769 9.68563175,16.6336883 9.73656757,16.2582262 L9.74358974,16.1538462 L9.74358974,13.0769231 L9.74181511,13.0242568 L9.73988872,13.0009841 C9.73810906,12.9828231 9.73569783,12.9648473 9.73262596,12.9467776 L9.72219748,12.8960196 L9.72219748,12.8960196 C9.71886877,12.8822097 9.71516748,12.868545 9.7110107,12.854724 C9.70423755,12.8322383 9.69646303,12.8101865 9.68796379,12.7891769 C9.68442303,12.7804043 9.6807252,12.7717119 9.67677839,12.7628901 L9.66614829,12.7401555 L9.65483098,12.7178806 L9.628011,12.6711937 C9.61767267,12.6545733 9.6067181,12.6383761 9.59502879,12.6224289 C9.58934739,12.6146834 9.5835245,12.6070481 9.57785043,12.5998886 L9.55602569,12.573535 L9.53312786,12.5482491 L9.51262885,12.5273943 C9.47188417,12.4874792 9.42671903,12.4520593 9.37727147,12.4215272 C9.37115586,12.4177596 9.36498353,12.4140751 9.35961766,12.4109742 C9.34025197,12.3997468 9.3203514,12.3893398 9.2993852,12.3795306 C9.28903144,12.3746969 9.27855223,12.3700869 9.26841747,12.3658988 C9.25111654,12.3587357 9.23349745,12.3521857 9.21548311,12.3462414 L9.1737905,12.3337967 C9.11018669,12.3167703 9.04333297,12.3076923 8.97435897,12.3076923 Z M4.102,3.589 L2.82051282,3.58974359 C2.15670903,3.58974359 1.61073446,4.09423043 1.54508062,4.74071258 L1.53846154,4.87179487 L1.538,8.20428205 L16.41,8.20428205 L16.4102564,4.87179487 C16.4102564,4.20799109 15.9057696,3.66201651 15.2592874,3.59636268 L15.1282051,3.58974359 L13.846,3.589 L13.8461538,4.87179487 C13.8461538,5.29662929 13.5017575,5.64102564 13.0769231,5.64102564 C12.6697901,5.64102564 12.3365317,5.32473108 12.3094669,4.92446113 L12.3076923,4.87179487 L12.307,3.589 L5.641,3.589 L5.64102564,4.87179487 C5.64102564,5.29662929 5.29662929,5.64102564 4.87179487,5.64102564 C4.46466188,5.64102564 4.13140345,5.32473108 4.10433874,4.92446113 L4.1025641,4.87179487 L4.102,3.589 Z"
+                                            id="Calendar-Copy" fill="#3252D1" fill-rule="nonzero"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="agenda-date_val">03 Abril 2022</p>
+
+                    </div>
+                    <div class="agenda-panel_submit">
+                        <input class="boton" type="submit" value="Generar reportes">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+
+        </section>
+    </main>
+</body>
+
+</html>
